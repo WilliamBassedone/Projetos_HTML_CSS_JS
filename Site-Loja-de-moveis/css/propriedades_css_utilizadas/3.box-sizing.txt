@@ -1,0 +1,33 @@
+box-sizing
+
+A propriedade CSS box-sizing é utilizada para alterar a propriedade padrão da box model,
+usada para calcular larguras (widths) e alturas (heights) dos elementos. É possivel usar
+essa propriedade para emular o comportamento dos navegadores (browsers) que não suportam
+corretamente a especificação da propriedade CSS box model.
+
+Sintaxe:
+
+    box-sizing: content-box
+    box-sizing: border-box;
+    box-sizing: inherit;
+
+
+Valores:
+
+    content-box
+
+        Esse é o estilo padrão, conforme o especificado pela norma CSS. As propriedades width(largura)
+        e height(altura) são medidas incluindo só o conteúdo, mas não o padding, border ou margin. 
+        Nota: Padding, border e margin serão fora do box. Exemplo.: Se .box{width: 350px} então se você
+        aplicar uma propriedade {border: 10px solid black;} o resultado renderizado no navegador (browser)
+        será .box{width> 370px;}
+
+    padding-box
+
+        As propriedades de largura (width) e de altura (height) incluem o tamano padding size,
+        mas não incluem a propriedade border ou margem.
+    
+    border-box
+
+        As propriedades de largura (width) e de altura (height) incluem o tamanho padding size e a
+        a propriedade border, mas não incluem a propriedade margin.

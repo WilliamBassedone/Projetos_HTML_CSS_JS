@@ -1,0 +1,29 @@
+Propriedade margin:
+
+    Utilizado para criar espaço em torno dos elementos.
+    Com CSS, você tem controle total sobre as margens. Existem propriedades para definir
+    a margem para cada lado do elemento(superior, direito, inferior e esquerdo).
+    
+    Margem - Lados Individuais
+         
+         O CSS possui propriedades para especificar a margem para especificar a margem para cada lado de um elemento:
+
+         margin-top
+         margin-right
+         margin-bottom
+         margin-left
+
+    Todas as propriedades da margem podem ter os seguintes valores:
+
+        . auto - o navegador calcula a margem
+        . length - especifica uma margem em px, pt, cm.
+        . % - Especifica uma margem e, % da largura do elemento que contém.
+        . inherit - especifica que a margem deve ser herdada do elemento propriedades.
+
+        Dica: Valores negativos são permitidos.
+
+
+
+
+
+

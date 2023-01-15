@@ -1,0 +1,19 @@
+.pt-15 {
+    padding-top: 15px;
+}
+
+.usuario-conectado {
+    color: #00FF00;
+}
+
+.foto_item {
+    width: 150px;
+    height: 200px;
+    text-align: center;
+    margin-right: 10px;
+    float: left;
+}
+
+.foto_item img {
+    width: 150px;
+}

@@ -1,0 +1,19 @@
+Propriedade padding:
+
+padding = preenchimento
+
+    O padding é usado para gerar espaço em torno do conteúdo de um elemento.
+    O CSS possui propriedades para especificar o preenchimento para cada lado de um elemento.
+
+    padding-top
+    padding-right
+    padding-bottom
+    padding-left
+
+    Todas as propriedades do padding podem ter os seguintes valores:
+
+    length - especifica um preenchimento em px, pt, cm.
+    % - especifica um preenchimento em % da largura do elemento que contém
+    inherit - especifica que o preenchimento deve ser herdado do elemento pai.
+
+    Nota: Valores negativos não são permitidos.
